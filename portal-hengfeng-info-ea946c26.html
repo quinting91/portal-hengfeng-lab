@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>开始了解 · G22恒峰</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #faf9f8;
+            font-family: Georgia, 'Times New Roman', Times, 'Noto Serif SC', serif;
+            color: #1e1e1e;
+            line-height: 1.7;
+            padding: 2rem 1rem 4rem;
+        }
+
+        .page {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* 开头留白 + 背景分隔 */
+        .hero-note {
+            margin-top: 3rem;
+            margin-bottom: 3.5rem;
+            padding-right: 1rem;
+        }
+
+        .hero-note p:first-child {
+            font-size: 1.3rem;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            color: #2c3e50;
+            border-left: 3px solid #b9976b;
+            padding-left: 1.2rem;
+        }
+
+        .hero-note .sub {
+            margin-top: 1.2rem;
+            font-size: 1rem;
+            color: #4c4c4c;
+            padding-left: 1.5rem;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 350;
+            letter-spacing: 1px;
+            margin-top: 0.8rem;
+            margin-bottom: 2rem;
+            color: #1a1a1a;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 0.6rem;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 400;
+            margin: 2.4rem 0 1rem;
+            color: #2c3e50;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 1.02rem;
+        }
+
+        .intro-card {
+            background: #ffffff;
+            padding: 1.8rem 2rem;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02), 0 1px 2px rgba(0, 0, 0, 0.03);
+            margin: 2rem 0 2.5rem;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            margin: 1.5rem 0 1rem;
+        }
+
+        .feature-list li {
+            position: relative;
+            padding: 0.6rem 0 0.6rem 2.2rem;
+            border-bottom: 1px dashed #efefef;
+            font-size: 1rem;
+            color: #303030;
+        }
+
+        .feature-list li:last-child {
+            border-bottom: none;
+        }
+
+        .feature-list li::before {
+            content: "·";
+            position: absolute;
+            left: 0.8rem;
+            color: #b9976b;
+            font-weight: bold;
+            font-size: 1.6rem;
+            line-height: 1;
+        }
+
+        .scene-box {
+            background-color: #f5f2ed;
+            border-radius: 28px;
+            padding: 1.6rem 1.8rem;
+            margin: 2.5rem 0;
+        }
+
+        .scene-box p {
+            margin-bottom: 0.9rem;
+        }
+
+        .faq-short {
+            margin: 2.5rem 0 1.5rem;
+            padding: 1rem 0;
+            border-top: 1px solid #e0dbd4;
+            border-bottom: 1px solid #e0dbd4;
+        }
+
+        .faq-short d {
+            display: block;
+            font-weight: 500;
+            margin-top: 0.8rem;
+        }
+
+        .faq-short d:first-of-type {
+            margin-top: 0;
+        }
+
+        .closing {
+            text-align: left;
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #eae6e0;
+        }
+
+        a {
+            color: #1d3b5a;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-thickness: 1px;
+            text-decoration-color: #b9976b;
+            transition: color 0.2s, text-decoration-color 0.2s;
+        }
+
+        a:hover {
+            color: #000;
+            text-decoration-color: #2c3e50;
+        }
+
+        .signature {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: #7b7b7b;
+            letter-spacing: 0.5px;
+        }
+
+        /* 响应式 */
+        @media (max-width: 500px) {
+            body {
+                padding: 1.2rem 0.8rem 3rem;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            .intro-card {
+                padding: 1.3rem 1.2rem;
+            }
+            .hero-note p:first-child {
+                font-size: 1.15rem;
+                padding-left: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+
+    <div class="hero-note">
+        <p>一个站点，从简洁与可靠开始。</p>
+        <div class="sub">没有浮夸的标语，只有日常使用的踏实感。</div>
+    </div>
+
+    <h1>关于这里</h1>
+
+    <p>最初搭建它的想法很简单：需要一个安静、直接、不绕弯子的地方。无论是查找信息，还是确认某个细节，你都能很快找到方向。<br>
+    它没有被塞满弹窗和无关的装饰，更关注内容本身的可读性。如果你恰好也在意这些，或许会觉得顺手。</p>
+
+    <div class="intro-card">
+        <p style="font-weight: 400; margin-bottom: 0.8rem;">—— 站点背后是「<a href="https://portal-hengfeng.com">G22恒峰</a>」这个标识，它代表了一组持续维护的页面与工具入口。</p>
+        <p style="color: #3e3e3e; font-size: 0.96rem;">没有复杂的故事，只是一个长期在线的、保持更新的站点。你可以把它看作一个可靠的起点。</p>
+    </div>
+
+    <h2>几个特点</h2>
+    <ul class="feature-list">
+        <li>结构清晰，主要信息基本能在两三次点击内到达</li>
+        <li>界面偏向纸质书的阅读节奏，没有多余的动效干扰</li>
+        <li>长期维护，不依赖第三方不可控平台，链接稳定</li>
+        <li>适合日常查阅、核对、以及作为常用功能的快捷入口</li>
+    </ul>
+
+    <div class="scene-box">
+        <p><strong>一些使用场景：</strong></p>
+        <p>· 早晨打开浏览器，在书签里点开它，扫一眼有什么更新。<br>
+        · 需要某个固定功能时，直接输入熟悉的链接，而不是在搜索引擎里重新找。<br>
+        · 偶尔也想确认一下，这个站点是不是还和之前一样干净、稳定。</p>
+    </div>
+
+    <div class="faq-short">
+        <d><span style="font-weight: 400;">常见疑问摘要</span></d>
+        <d>问：页面上的链接都可靠吗？</d>
+        <p style="margin: 0.2rem 0 0.8rem;">答：所有指向均经过维护者确认，包括 <a href="https://portal-hengfeng.com">G22恒峰</a> 在内的主入口均保持有效，可放心使用。</p>
+        <d>问：这个站点会突然关闭吗？</d>
+        <p style="margin: 0.2rem 0 0;">答：站点采用低维护成本架构，长期在线。如有重大变更会在首页以简短说明提前告知。</p>
+    </div>
+
+    <div class="closing">
+        <p>总的来说，这里不制造焦虑，也不贩卖注意力。它更像一个安静的走廊，连接着几扇有用的门。</p>
+        <p>如果你觉得合适，可以把 <a href="https://portal-hengfeng.com">G22恒峰</a> 加入书签。它就在这里，不吵不闹。</p>
+        <div class="signature">—— 来自一位注重实用体验的维护者</div>
+    </div>
+
+</div>
+</body>
+</html>
